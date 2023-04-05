@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Hello, world!</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Open+Sans&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .carousel-item img{
+        height: 80vh;
+      }
+        .navbar-collapse{
+            flex-grow: 0;
+        } 
+        .about_img{
+          min-width: 100%;
+          max-height: 280px;
+        } 
+        /* .services .row>*{
+          padding-right: 0;
+          padding-left: 0;
+        } */
+        .img-fluid{
+          height: 223px;
+          width: auto;
+        }
+        .services img{
+          width: 100%;
+          height: 100%;
+        }
+        .offer_style{
+          /* --bs-gutter-x: -15rem; */
+          background-color: #a6dcef;
+        }
+        footer p{
+          margin-bottom: 0;
+        }
+
+        /* responsive css code */
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {  }
+
+         /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) { 
+          /* .img-fluid{
+          height: 223px;
+          width: 416px;
+        } */
+         }
+
+         /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {  }
+
+         /* X-Large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {  }
+
+         /* XX-Large devices (larger desktops, 1400px and up) */
+        @media (min-width: 1400px) {  }
+    </style>
+  </head>
+  <body>
+    <!-- responsive navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-capitalize" href="#">Rohit kumar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="About .html">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="services.html">Action</a></li>
+                  <li><a class="dropdown-item" href="services.html">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="services.html">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-capitalize" href="gallery.html">gallery</a>
+              </li> <li class="nav-item">
+                <a class="nav-link text-capitalize" href="contact.html">contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- About use section -->
+
+      <section class="main-heading my-5">
+        <div class="text-center">
+            <h1 class="display-4">about us</h1>
+            <hr class="w-25 mx-auto"/>
+        </div>
+        <div class="container my-5">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6">
+              <figure>
+                <img src="img/img4.jpg" alt="about images" class="img-fluid about_img">
+              </figure>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 col-xxl-6 d-flex justify-content-center align-items-strat flex-column">
+                  <h1>My Journey</h1>
+                  <p>The term study skills is used for general approaches to learning, skills for specific courses of study. There are many theoretical works on the subject, including a vast number of popular books and websites. Manuals for students have been published since the 1940</p>
+                        <!-- Check More button -->
+                  <button type="button" class="btn btn-outline-info w-25"0 data-bs-toggle="tooltip" data-bs-placement="right" title="Who Am I">Check More</button>
+            </div>
+      </section>
+      <!-- footer -->
+      <footer class="bg-secondary text-center text-white">
+        <p>rohitkumar798397@gmail.com</p>
+    </footer>
+
+
+<!-- theory part -->
+<div class="container text-right my-5">
+    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#">Theory</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h4 id="scrollspyHeading1" class="fw-bold my-2">First heading</h4>
+        <p>Memorization is the process of committing something to memory, often by rote.[11] The act of memorization is often a deliberate mental process undertaken in order to store information in one's memory for later recall. This information can be experiences, names, appointments, addresses, telephone numbers, lists, stories, poems, pictures, maps, diagrams, facts, music or other visual, auditory, or tactical information. Memorization may also refer to the process of storing particular data into the memory of a device. One of the most basic approaches to learning any information is simply to repeat it by rote. Typically this will include reading over notes or a textbook and re-writing notes.
+            There are a variety of studies from different colleges nationwide that show peer-communication can help increase better study habits tremendously. One study shows that an average of 73% score increase was recorded by those who were enrolled in the classes surveyed.[citation needed]
+
+In order to make reading or reviewing material more engaging and active, learners can create cues that will stimulate recall later on. A cue can be a word, short phrase, or song that helps the learner access a memory that was encoded intentionally with this prompt in mind. The use of cues to aid memory has been popular for many years, however, research suggests that adopting cues made by others is not as effective as cues that learners create themselves.[citation needed]
+
+Self-testing is another effective practice, when preparing for exams or other standardized memory recall situations. Many students prepare for exams by simply rereading textbook passages or materials. However, it's likely that this can create a false sense of understanding because of the increased familiarity that students have with passages that they have reviewed recently or frequently. Instead, in 2006, Roediger and Karpicke studied eighth-grade students’ performance on history exams. Their results showed that students who tested themselves on material they had learned, rather than simply reviewing or rereading subjects had both better and longer lasting retention. The term Testing Effect is used to describe this increase in memory performance.[15]
+
+Taking notes by using a computer can also deter impactful learning, even when students are using computers solely for the purpose note-taking and are not attempting to multitask, during lectures or study sessions. This is likely due to shallower processing from students using computers to take notes. Taking notes on a computer often ushers a tendency for students to record lectures verbatim, instead of writing the points of a lecture in their own words.[16]
+        </p>
+        <h4 id="scrollspyHeading2" class="fw-bold my-2">Second heading</h4>
+        <p>Memorization is the process of committing something to memory, often by rote.[11] The act of memorization is often a deliberate mental process undertaken in order to store information in one's memory for later recall. This information can be experiences, names, appointments, addresses, telephone numbers, lists, stories, poems, pictures, maps, diagrams, facts, music or other visual, auditory, or tactical information. Memorization may also refer to the process of storing particular data into the memory of a device. One of the most basic approaches to learning any information is simply to repeat it by rote. Typically this will include reading over notes or a textbook and re-writing notes. There are a variety of studies from different colleges nationwide that show peer-communication can help increase better study habits tremendously. One study shows that an average of 73% score increase was recorded by those who were enrolled in the classes surveyed.[citation needed] In order to make reading or reviewing material more engaging and active, learners can create cues that will stimulate recall later on. A cue can be a word, short phrase, or song that helps the learner access a memory that was encoded intentionally with this prompt in mind. The use of cues to aid memory has been popular for many years, however, research suggests that adopting cues made by others is not as effective as cues that learners create themselves.[citation needed] Self-testing is another effective practice, when preparing for exams or other standardized memory recall situations. Many students prepare for exams by simply rereading textbook passages or materials. However, it's likely that this can create a false sense of understanding because of the increased familiarity that students have with passages that they have reviewed recently or frequently. Instead, in 2006, Roediger and Karpicke studied eighth-grade students’ performance on history exams. Their results showed that students who tested themselves on material they had learned, rather than simply reviewing or rereading subjects had both better and longer lasting retention. The term Testing Effect is used to describe this increase in memory performance.[15] Taking notes by using a computer can also deter impactful learning, even when students are using computers solely for the purpose note-taking and are not attempting to multitask, during lectures or study sessions. This is likely due to shallower processing from students using computers to take notes. Taking notes on a computer often ushers a tendency for students to record lectures verbatim, instead of writing the points of a lecture in their own words.[16]</p>
+        <h4 id="scrollspyHeading3" class="fw-bold my-2">Third heading</h4>
+        <p>Memorization is the process of committing something to memory, often by rote.[11] The act of memorization is often a deliberate mental process undertaken in order to store information in one's memory for later recall. This information can be experiences, names, appointments, addresses, telephone numbers, lists, stories, poems, pictures, maps, diagrams, facts, music or other visual, auditory, or tactical information. Memorization may also refer to the process of storing particular data into the memory of a device. One of the most basic approaches to learning any information is simply to repeat it by rote. Typically this will include reading over notes or a textbook and re-writing notes. There are a variety of studies from different colleges nationwide that show peer-communication can help increase better study habits tremendously. One study shows that an average of 73% score increase was recorded by those who were enrolled in the classes surveyed.[citation needed] In order to make reading or reviewing material more engaging and active, learners can create cues that will stimulate recall later on. A cue can be a word, short phrase, or song that helps the learner access a memory that was encoded intentionally with this prompt in mind. The use of cues to aid memory has been popular for many years, however, research suggests that adopting cues made by others is not as effective as cues that learners create themselves.[citation needed] Self-testing is another effective practice, when preparing for exams or other standardized memory recall situations. Many students prepare for exams by simply rereading textbook passages or materials. However, it's likely that this can create a false sense of understanding because of the increased familiarity that students have with passages that they have reviewed recently or frequently. Instead, in 2006, Roediger and Karpicke studied eighth-grade students’ performance on history exams. Their results showed that students who tested themselves on material they had learned, rather than simply reviewing or rereading subjects had both better and longer lasting retention. The term Testing Effect is used to describe this increase in memory performance.[15] Taking notes by using a computer can also deter impactful learning, even when students are using computers solely for the purpose note-taking and are not attempting to multitask, during lectures or study sessions. This is likely due to shallower processing from students using computers to take notes. Taking notes on a computer often ushers a tendency for students to record lectures verbatim, instead of writing the points of a lecture in their own words.[16]</p>
+        <h4 id="scrollspyHeading4" class="fw-bold my-2">Fourth heading</h4>
+        <p>Memorization is the process of committing something to memory, often by rote.[11] The act of memorization is often a deliberate mental process undertaken in order to store information in one's memory for later recall. This information can be experiences, names, appointments, addresses, telephone numbers, lists, stories, poems, pictures, maps, diagrams, facts, music or other visual, auditory, or tactical information. Memorization may also refer to the process of storing particular data into the memory of a device. One of the most basic approaches to learning any information is simply to repeat it by rote. Typically this will include reading over notes or a textbook and re-writing notes. There are a variety of studies from different colleges nationwide that show peer-communication can help increase better study habits tremendously. One study shows that an average of 73% score increase was recorded by those who were enrolled in the classes surveyed.[citation needed] In order to make reading or reviewing material more engaging and active, learners can create cues that will stimulate recall later on. A cue can be a word, short phrase, or song that helps the learner access a memory that was encoded intentionally with this prompt in mind. The use of cues to aid memory has been popular for many years, however, research suggests that adopting cues made by others is not as effective as cues that learners create themselves.[citation needed] Self-testing is another effective practice, when preparing for exams or other standardized memory recall situations. Many students prepare for exams by simply rereading textbook passages or materials. However, it's likely that this can create a false sense of understanding because of the increased familiarity that students have with passages that they have reviewed recently or frequently. Instead, in 2006, Roediger and Karpicke studied eighth-grade students’ performance on history exams. Their results showed that students who tested themselves on material they had learned, rather than simply reviewing or rereading subjects had both better and longer lasting retention. The term Testing Effect is used to describe this increase in memory performance.[15] Taking notes by using a computer can also deter impactful learning, even when students are using computers solely for the purpose note-taking and are not attempting to multitask, during lectures or study sessions. This is likely due to shallower processing from students using computers to take notes. Taking notes on a computer often ushers a tendency for students to record lectures verbatim, instead of writing the points of a lecture in their own words.[16]</p>
+        <h4 id="scrollspyHeading5" class="fw-bold my-2">Fifth heading</h4>
+        <p>Memorization is the process of committing something to memory, often by rote.[11] The act of memorization is often a deliberate mental process undertaken in order to store information in one's memory for later recall. This information can be experiences, names, appointments, addresses, telephone numbers, lists, stories, poems, pictures, maps, diagrams, facts, music or other visual, auditory, or tactical information. Memorization may also refer to the process of storing particular data into the memory of a device. One of the most basic approaches to learning any information is simply to repeat it by rote. Typically this will include reading over notes or a textbook and re-writing notes. There are a variety of studies from different colleges nationwide that show peer-communication can help increase better study habits tremendously. One study shows that an average of 73% score increase was recorded by those who were enrolled in the classes surveyed.[citation needed] In order to make reading or reviewing material more engaging and active, learners can create cues that will stimulate recall later on. A cue can be a word, short phrase, or song that helps the learner access a memory that was encoded intentionally with this prompt in mind. The use of cues to aid memory has been popular for many years, however, research suggests that adopting cues made by others is not as effective as cues that learners create themselves.[citation needed] Self-testing is another effective practice, when preparing for exams or other standardized memory recall situations. Many students prepare for exams by simply rereading textbook passages or materials. However, it's likely that this can create a false sense of understanding because of the increased familiarity that students have with passages that they have reviewed recently or frequently. Instead, in 2006, Roediger and Karpicke studied eighth-grade students’ performance on history exams. Their results showed that students who tested themselves on material they had learned, rather than simply reviewing or rereading subjects had both better and longer lasting retention. The term Testing Effect is used to describe this increase in memory performance.[15] Taking notes by using a computer can also deter impactful learning, even when students are using computers solely for the purpose note-taking and are not attempting to multitask, during lectures or study sessions. This is likely due to shallower processing from students using computers to take notes. Taking notes on a computer often ushers a tendency for students to record lectures verbatim, instead of writing the points of a lecture in their own words.[16]</p>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
